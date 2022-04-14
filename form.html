@@ -1,0 +1,41 @@
+<html>
+     <head>
+	 </head>
+	 <body style="direction:rtl">
+		   <form action="server.php" method="get">
+		   <fieldset>
+		   <legend> اطلاعات شخصی شما </legend>
+		   اسم شما: <input type="text" id="txtFirstname" name="txtFirstname"/><br />
+           رمز شما: <input type="password" id="pwdpass"/> <br />
+		            <input type="radio" name="rdbGender" id="آ"/> آقا
+					<input type="radio" name="rdbGender" id="خ"/> خانم<br />
+        آدرس ایمیل: <input type="email" name="email"/><br /> 
+					<input type="checkbox" value=""/> بخاطر سپردن اطلاعات<br />
+					<input type="reset" value="ریست کردن"/>
+					<input type="submit" value="فرستادن"/><br />
+							 
+					<textarea cols="20" rows="10"></textarea><br />
+					<select>
+							   <option value="1"> کرج </option>
+							   <option value="2"> تهران </option>
+							   <option value="3"> مشهد </option>
+							   <option value="4"> کرمانشاه </option>
+							   <option value="5"> اصفهان </option>
+					</select><br />
+					
+					<select>
+					          <option> مجرد </option>
+							   <option> متاهل </option>
+					</select><br />
+					
+					<input type="text" id="txtBrowsers"  list="browsers" />
+			        <datalist id="browsers">
+			        <option value="Chrome"/>
+				    <option value="Mozila"/>
+				    <option value="Opera"/>
+					
+			</datalist><br />
+									 
+          </fieldset>
+	 </body>
+</html>
